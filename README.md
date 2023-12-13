@@ -7,7 +7,7 @@ SELECT ( READ )
 UPDATE ( UPDATE )
 DELETE ( DELETE )
 
-## Créer une bade de donnée si elle n'existe pas
+## Créer une base de donnée si elle n'existe pas
 CREATE DATABASE IF NOT EXISTS
 CREATE DATABASE "BaseDeDonnee"; Une base de donnée c'est une base qui va stocké des données donc des tables
 
