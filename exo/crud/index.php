@@ -18,6 +18,7 @@
 <body>
     <form action="./Views/update.php" method="POST" id='form'>
         <button formaction='./Views/create.php'>Créer un nouveau livre</button>
+        <button formaction='./Views/read.php'>Liste des livres</button>
         <table>
             <tr>
                 <th>ID</th>

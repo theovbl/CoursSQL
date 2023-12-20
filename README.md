@@ -11,27 +11,9 @@ UPDATE ( UPDATE )
 
 DELETE ( DELETE )
 
-Attention il faut mettre un sudo mysql puis entrer et faire les commandes :
-#
-
-Pour afficher différent chose on peux utiliser SHOW donc en concret
-
-### Afficher les bases de donnée
-    SHOW DATABASES;
-### Afficher les tables qu'il ce trouve dans une base de donnée
-    SHOW TABLES;
-### Afficher les colums qu'il ce trouve dans une table
-    SHOW COLUMNS FROM NomTable;
-
 ## Créer une base de donnée si elle n'existe pas
-    CREATE DATABASE IF NOT EXISTS "BaseDeDonnee";
-## Créer une base de donnée même si elle existe
-    CREATE DATABASE "BaseDeDonnee"; 
-Une base de donnée c'est une base qui va stocké des données donc des tables
-
-###### Permet de dire je rentre dans cette base de donnée et j'utilise ce qu'il ce trouve dedans
-    USE BaseDeDonnee;
-#
+CREATE DATABASE IF NOT EXISTS
+CREATE DATABASE "BaseDeDonnee"; Une base de donnée c'est une base qui va stocké des données donc des tables
 
 ## Créer une table si elle n'existe pas
     CREATE TABLE IF NOT EXISTS table (
