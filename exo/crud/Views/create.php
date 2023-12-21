@@ -18,7 +18,7 @@
 <body>
 <form action="../Controllers/create_ctrl.php" method='post'>
         <fieldset>
-            <legend>Modifier un livre</legend>
+            <legend>Créer un livre</legend>
             <pre>
                 <label for="titre">Titre :</label>
                 <input type="text" name="titre" id="titre">
